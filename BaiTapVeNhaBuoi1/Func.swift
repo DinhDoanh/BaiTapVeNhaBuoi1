@@ -156,13 +156,14 @@ func BT6(){
     let H = Int(readLine() ?? "") ?? 0
     let i: Int = 1
     let j: Int = 1
-    for i in i...H {
+    for i in i...H+1 {
         for _  in j..<H {
             print(" ")
         }
-        for _ in j...(2 * i -  1) {
-                print("*")
+        for _ in i..<2 * i-1{
+                print("*",terminator:"")
         }
+        print("")
     }
 }
 
