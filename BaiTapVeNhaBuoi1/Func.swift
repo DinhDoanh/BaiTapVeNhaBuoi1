@@ -214,12 +214,14 @@ func BT10(){
     let j: Int = 1
     
     for i in i...H {
-        for _ in j..<i {
-            print(" ")
+        for _ in j..<i{
+            print(" ",terminator:"")
         }
-        for _ in j...(H * 2 - (2*i-1)) {
+        for _ in j...H * 2 - (2*i-1) {
             print("*",terminator:"")
         }
+        print("")
+
     }
-    print("")
 }
+
