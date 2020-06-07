@@ -195,12 +195,13 @@ func BT9() {
     for i in i...d {
         for k in k...r {
             if i==1 || k==1 || i==d || k == r{
-                print("*")
+                print("*",terminator:"")
             }else{
-                print(" ")
+                print("#")
             }
         }
     }
+}
     
 }
 //10. Vẽ tam giác cân ngược
@@ -216,7 +217,8 @@ func BT10(){
             print(" ")
         }
         for _ in j...(H * 2 - (2*i-1)) {
-            print("*")
+            print("*",terminator:"")
         }
     }
+    print("")
 }
