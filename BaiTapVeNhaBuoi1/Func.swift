@@ -197,9 +197,10 @@ func BT9() {
             if i==1 || k==1 || i==d || k == r{
                 print("*",terminator:"")
             }else{
-                print("#")
+                print(" ",terminator:"")
             }
         }
+                print("")
     }
 }
     
